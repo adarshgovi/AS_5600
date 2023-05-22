@@ -1,3 +1,11 @@
+//
+//    FILE: AS5600.h
+//  AUTHOR: Adarsh Govindan
+// VERSION: 0.1.1
+// PURPOSE: Raspberry PI library for AS5600 magnetic rotation meter
+//    DATE: 2023-05-22
+
+
 #ifndef AS_5600
 #define AS_5600
 extern "C" {
@@ -5,6 +13,7 @@ extern "C" {
     #include <i2c/smbus.h>
 }
 #include <stdint.h>
+#include <bitset>
 #include <cstdio>
 #include <unistd.h>
 #include <fcntl.h>

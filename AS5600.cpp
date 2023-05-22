@@ -1,5 +1,11 @@
+//
+//    FILE: AS5600.h
+//  AUTHOR: Adarsh Govindan
+// VERSION: 0.1.1
+// PURPOSE: Raspberry PI library for AS5600 magnetic rotation meter
+//    DATE: 2023-05-22
+
 #include "AS_5600.h"
-#include <bitset>
 
 
 AS_5600::AS_5600(){
